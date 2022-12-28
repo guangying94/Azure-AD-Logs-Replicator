@@ -1,7 +1,4 @@
-{
-    "records": [
-        {
-            "time": "2022-12-27T04:33:53.5638793Z",
+{"records": [{"time": "2022-12-27T04:33:53.5638793Z",
             "resourceId": "/tenants/00000000-0000-0000-0000-000000000000/providers/Microsoft.aadiam",
             "operationName": "Sign-in activity",
             "operationVersion": "1.0",
@@ -63,7 +60,4 @@
                 "authenticationProtocol": "none",
                 "appServicePrincipalId": null,
                 "resourceServicePrincipalId": null
-            }
-        }
-    ]
-}
+}}]}

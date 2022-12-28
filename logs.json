@@ -1,0 +1,69 @@
+{
+    "records": [
+        {
+            "time": "2022-12-27T04:33:53.5638793Z",
+            "resourceId": "/tenants/00000000-0000-0000-0000-000000000000/providers/Microsoft.aadiam",
+            "operationName": "Sign-in activity",
+            "operationVersion": "1.0",
+            "category": "ServicePrincipalSignInLogs",
+            "tenantId": "00000000-0000-0000-0000-000000000000",
+            "tenantName": "abc.com",
+            "resultType": "0",
+            "resultSignature": "None",
+            "durationMs": 0,
+            "callerIpAddress": "1.2.3.4",
+            "correlationId": "6388fe33-3e8b-431f-866b-cb24fcf61cc3",
+            "Level": 4,
+            "location": "US",
+            "properties": {
+                "id": "b00c555d-442d-488b-b810-b768ff0b7301",
+                "createdDateTime": "2022-12-27T04: 33: 53.5638793+00: 00",
+                "userId": null,
+                "appId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+                "ipAddress": "1.2.3.4",
+                "status": {
+                    "errorCode": 0
+                },
+                "location": {
+                    "city": "xxx",
+                    "state": "xxx",
+                    "countryOrRegion": "US",
+                    "geoCoordinates": {
+                        "latitude": 1.3,
+                        "longitude": 105.789
+                    }
+                },
+                "correlationId": "6388fe33-3e8b-431f-866b-cb24fcf61cc3",
+                "conditionalAccessStatus": "notApplied",
+                "appliedConditionalAccessPolicies": [],
+                "isInteractive": false,
+                "tokenIssuerType": "AzureAD",
+                "authenticationProcessingDetails": [
+                    {
+                        "key": "Azure AD App Authentication Library",
+                        "value": ""
+                    }
+                ],
+                "clientCredentialType": "none",
+                "processingTimeInMilliseconds": 0,
+                "riskDetail": "none",
+                "riskLevelAggregated": "low",
+                "riskLevelDuringSignIn": "low",
+                "riskState": "none",
+                "resourceDisplayName": "xxxxxx",
+                "resourceId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+                "servicePrincipalName": "xxxxxx",
+                "servicePrincipalId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+                "flaggedForReview": false,
+                "isTenantRestricted": false,
+                "crossTenantAccessType": "none",
+                "servicePrincipalCredentialKeyId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+                "uniqueTokenIdentifier": "XVUMsC1Ei0i4ELdo_wtzAQ",
+                "incomingTokenType": "none",
+                "authenticationProtocol": "none",
+                "appServicePrincipalId": null,
+                "resourceServicePrincipalId": null
+            }
+        }
+    ]
+}

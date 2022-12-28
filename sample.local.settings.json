@@ -1,0 +1,9 @@
+{
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "EventHubConnection": "Endpoint=sb://xxx.servicebus.windows.net/;SharedAccessKeyName=listener;SharedAccessKey=xxxxxx",
+    "DestEventHubConnection": "Endpoint=sb://xxx.servicebus.windows.net/;SharedAccessKeyName=Sender;SharedAccessKey=xxxxxx"
+  }
+}

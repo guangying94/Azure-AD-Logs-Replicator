@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Logs_Replicator": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7106",
+      "launchBrowser": false
+    }
+  }
+}
